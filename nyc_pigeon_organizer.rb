@@ -6,6 +6,9 @@ def nyc_pigeon_organizer(data)
         if !finally_arr[name]
           finally_arr[name] = {}
         end
+        if !finally_arr[name][key]
+          
+        end
       end
     end
   end
