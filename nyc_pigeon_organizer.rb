@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |inn_key, names|
       names.each do |name|
         if !finally_arr[name]
-          
+          finally_arr[name] = {}
         end
       end
     end
